@@ -1,0 +1,104 @@
+<ion-header translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button style="color: white" (click)="close()">Back</ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+
+
+  <ion-accordion-group [multiple]="true" [value]="['crew', 'times']">
+
+    <ion-accordion value="crew">
+      <ion-item color="dark" slot="header">
+        <ion-label>Test1</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+
+
+      </ion-list>
+    </ion-accordion>
+
+
+    <ion-accordion value="times">
+      <ion-item color="dark" slot="header">
+        <ion-label>Test2</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+
+
+      </ion-list>
+    </ion-accordion>
+
+
+    <ion-accordion value="tooflang">
+      <ion-item color="dark" slot="header">
+        <ion-label>Test3</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+
+
+      </ion-list>
+    </ion-accordion>
+
+
+    <ion-accordion value="expenses">
+      <ion-item color="dark" slot="header">
+        <ion-label>Test4</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+
+
+
+
+      </ion-list>
+    </ion-accordion>
+
+
+    <ion-accordion value="tach">
+      <ion-item color="dark" slot="header">
+        <ion-label>Test5</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+
+
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="signature">
+      <ion-item color="dark" slot="header">
+        <ion-label>Test6</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+
+
+      </ion-list>
+    </ion-accordion>
+
+    <ion-accordion value="images">
+      <ion-item color="dark" slot="header">
+        <ion-label>Test7</ion-label>
+      </ion-item>
+
+      <ion-list slot="content">
+
+
+      </ion-list>
+    </ion-accordion>
+
+
+
+  </ion-accordion-group>
+
+</ion-content>
