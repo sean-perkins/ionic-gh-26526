@@ -9,6 +9,6 @@ export class ModalDetailedComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 
 }

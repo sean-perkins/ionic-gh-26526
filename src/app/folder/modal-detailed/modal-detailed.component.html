@@ -11,94 +11,23 @@
 
 <ion-content>
 
-
-  <ion-accordion-group [multiple]="true" [value]="['crew', 'times']">
-
-    <ion-accordion value="crew">
-      <ion-item color="dark" slot="header">
-        <ion-label>Test1</ion-label>
-      </ion-item>
-
-      <ion-list slot="content">
-
-
-      </ion-list>
-    </ion-accordion>
-
-
-    <ion-accordion value="times">
-      <ion-item color="dark" slot="header">
-        <ion-label>Test2</ion-label>
-      </ion-item>
-
-      <ion-list slot="content">
-
-
-      </ion-list>
-    </ion-accordion>
-
-
-    <ion-accordion value="tooflang">
-      <ion-item color="dark" slot="header">
-        <ion-label>Test3</ion-label>
-      </ion-item>
-
-      <ion-list slot="content">
-
-
-      </ion-list>
-    </ion-accordion>
-
-
-    <ion-accordion value="expenses">
-      <ion-item color="dark" slot="header">
-        <ion-label>Test4</ion-label>
-      </ion-item>
-
-      <ion-list slot="content">
-
-
-
-
-      </ion-list>
-    </ion-accordion>
-
-
-    <ion-accordion value="tach">
-      <ion-item color="dark" slot="header">
-        <ion-label>Test5</ion-label>
-      </ion-item>
-
-      <ion-list slot="content">
-
-
-      </ion-list>
-    </ion-accordion>
-
-    <ion-accordion value="signature">
-      <ion-item color="dark" slot="header">
-        <ion-label>Test6</ion-label>
-      </ion-item>
-
-      <ion-list slot="content">
-
-
-      </ion-list>
-    </ion-accordion>
-
-    <ion-accordion value="images">
-      <ion-item color="dark" slot="header">
-        <ion-label>Test7</ion-label>
-      </ion-item>
-
-      <ion-list slot="content">
-
-
-      </ion-list>
-    </ion-accordion>
-
-
-
-  </ion-accordion-group>
+  <ion-radio-group [value]="'crew'">
+    <ion-item>
+      <ion-label>Test1</ion-label>
+      <ion-radio value="crew"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Test2</ion-label>
+      <ion-radio value="times"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Test3</ion-label>
+      <ion-radio value="tooflang"></ion-radio>
+    </ion-item>
+    <ion-item>
+      <ion-label>Test4</ion-label>
+      <ion-radio value="expenses"></ion-radio>
+    </ion-item>
+  </ion-radio-group>
 
 </ion-content>
